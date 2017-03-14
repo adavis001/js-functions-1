@@ -3,21 +3,30 @@
  * @param {number} n
  * @return {string} the number as a string
  */
-
+function numberToString(num){
+	return num.toString();
+}
+console.log(numberToString(5));
 
 /**
  * Adds one to a given number.
  * @param {number} n
  * @return {number}
  */
-
+function increase(num){
+	return ++num;
+}
+console.log(increase(7));	
 
 /**
  * Subtracts one from a given number.
  * @param {number} n
  * @return {number}
  */
-
+function decrease(num){
+	return --num;
+}
+console.log(decrease(7));
 
 /**
  * Adds two numbers.
